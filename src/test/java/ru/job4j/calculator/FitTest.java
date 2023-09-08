@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class FitTest {
 
     @Test
-    void whenMan180Then100() {
+    void whenMan180Then100dot05() {
         short in = 187;
         double expected = 100.05;
         double out = Fit.manWeight(in);
@@ -15,7 +15,7 @@ class FitTest {
     }
 
     @Test
-    void whenWoman187Then88() {
+    void whenWoman187Then88dot55() {
         short in = 187;
         double expected = 88.55;
         double out = Fit.womanWeight(in);
